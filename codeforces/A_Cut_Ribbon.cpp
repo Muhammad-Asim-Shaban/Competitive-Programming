@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include<iostream> 
 using namespace std; 
 int main(){
@@ -10,4 +11,18 @@ for(int j=0;j<=n;j++){
 	s=max(s,(i+j+k/c));
 }
 cout<<s;
+=======
+#include<iostream> 
+using namespace std; 
+int main(){
+int n,a,b,c,s=1,k;
+cin>>n>>a>>b>>c; 
+for(int i=0;i<=n;i++)
+for(int j=0;j<=n;j++){
+     k=n-a*i-b*j;
+	if(k>=0&&k%c==0)
+	s=max(s,(i+j+k/c));
+}
+cout<<s;
+>>>>>>> 62c235af6771a4d7812a39cd5b6348d36f92dbb0
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include<bits/stdc++.h>
 using namespace std;
 #define ll long long
@@ -34,4 +35,28 @@ int main()
          vector<vector<vector<int>>> dp(n,vector<vector<int>>(2,vector<int>(k+1,-1)));
         cout<<f(0,1,vec,k,dp)<<endl;
     }
+=======
+#include<bits/stdc++.h>
+using namespace std;
+#define ll long long
+vector<ll> vec;
+vector<ll>dp(100005,-1);
+int main()
+{
+    ll t;
+    cin>>t;
+    while(t--)
+    {
+        ll k;
+        cin>>k;
+        ll n;
+        cin>>n;
+        vec.resize(n);
+        for(ll i=0;i<n;i++)
+        {
+            cin>>vec[i];
+        }
+        cout<<result()
+    }
+>>>>>>> 62c235af6771a4d7812a39cd5b6348d36f92dbb0
 }
