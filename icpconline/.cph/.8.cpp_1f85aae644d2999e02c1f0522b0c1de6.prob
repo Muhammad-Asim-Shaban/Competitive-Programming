@@ -1,0 +1,1 @@
+{"name":"Local: 8","url":"c:\\Users\\User\\Desktop\\cp\\icpconline\\8.cpp","tests":[{"id":1763882459360,"input":"5\n1 2 3 4 5\n3 4 5 1 2","output":""},{"id":1763882480963,"input":"3\n2 3 4\n3 4 3","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\User\\Desktop\\cp\\icpconline\\8.cpp","group":"local","local":true}
