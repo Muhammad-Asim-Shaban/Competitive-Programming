@@ -1,5 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
+#define ll long long 
 int main()
 {
     int t;
@@ -13,14 +14,13 @@ int main()
         {
             cin>>vec[i];
         }
-        int ans=0;
-        for(int i=1;i<n;i++)
+        if(is_sorted(vec.begin(),vec.end()))
         {
-            if(vec[i]<vec[i-1])
-            {
-                ans++;
-            }
+            cout<<n<<endl;
         }
-        cout<<n-ans<<endl;
+        else
+        {
+            cout<<1<<endl;
+        }
     }
 }
